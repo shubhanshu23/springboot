@@ -8,3 +8,15 @@ endpoints:
     sensitive: false
   shutdown:
     enabled: true
+# tag::jpa[]
+#spring:
+#  jpa:
+#    database: MYSQL
+#    hibernate:
+#      ddl-auto: validate
+#
+#  datasource:
+#    url: jdbc:mysql://demo-mysql:3306/test
+#    username: root
+#    password: root
+#    driver-class-name: com.mysql.jdbc.Driver
